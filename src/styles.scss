@@ -103,6 +103,12 @@ img#gh-mark {
     @include light;
 
     background: url('assets/super-crushed-2x.png');
+    background: image-set(
+        url('assets/super-crushed-4x.png') 4x,
+        url('assets/super-crushed-3x.png') 3x,
+        url('assets/super-crushed-2x.png') 2x,
+        url('assets/super-crushed-1x.png') 1x
+    );
     background-size: cover;
     background-position: center;
 
@@ -156,7 +162,10 @@ section.projects {
 
     h1 {
         font-size: 3rem;
-        margin-top: 0;
+
+        max-width: $page-width;
+        margin: 0 auto;
+        margin-bottom: 3rem;
     }
 
     .card-array {
