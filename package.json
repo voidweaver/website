@@ -1,6 +1,6 @@
 {
     "name": "voidweaver-quarks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/index.html",
     "author": "voidweaver",
     "license": "GPL-3.0",
