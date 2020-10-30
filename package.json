@@ -1,21 +1,19 @@
 {
-  "name": "voidweaver-quarks",
-  "version": "1.0.0",
-  "main": "src/index.html",
-  "author": "voidweaver",
-  "license": "GPL-3.0",
-  "private": true,
-  "scripts": {
-    "start": "parcel serve src/index.html",
-    "version": "parcel --version"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "parcel": "^2.0.0-nightly.433",
-    "postcss": "^8.1.4",
-    "sass": "^1.27.0"
-  },
-  "dependencies": {
-    "smoothscroll-polyfill": "^0.4.4"
-  }
+    "name": "voidweaver-quarks",
+    "version": "1.0.0",
+    "main": "dist/index.html",
+    "author": "voidweaver",
+    "license": "GPL-3.0",
+    "private": true,
+    "scripts": {
+        "start": "parcel serve src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.0.1",
+        "parcel": "^2.0.0-nightly.433",
+        "postcss": "^8.1.4",
+        "sass": "^1.27.0"
+    },
+    "dependencies": {}
 }
